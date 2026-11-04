@@ -1,0 +1,40 @@
+# ===== Environnements Python =====
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Secrets et configuration locale =====
+# Le fichier de configuration contient les identifiants des équipements.
+network_config.json
+.env
+.env.*
+config_*.txt
+*.log
+netmiko_session.log
+
+# ===== Fichiers générés par l'application =====
+backups/
+*.bak
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Fichiers temporaires =====
+static/_shot.html
+*.tmp

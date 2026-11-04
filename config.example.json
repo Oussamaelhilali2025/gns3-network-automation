@@ -1,0 +1,19 @@
+{
+    "default_snmp_community": "public",
+    "devices": {
+        "192.168.1.10": {
+            "username": "cisco",
+            "password": "change-me",
+            "secret": "",
+            "device_type": "cisco_ios",
+            "snmp_community": "public"
+        },
+        "192.168.1.11": {
+            "username": "cisco",
+            "password": "change-me",
+            "secret": "",
+            "device_type": "cisco_ios",
+            "snmp_community": "public"
+        }
+    }
+}

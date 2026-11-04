@@ -1,0 +1,14 @@
+# Interface & API
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+
+# Automatisation réseau (SSH)
+netmiko==4.6.0
+
+# Supervision réseau (SNMP)
+pysnmp==4.4.12
+pysmi==1.6.2
+pyasn1==0.4.8
+
+# Planification des sauvegardes
+schedule==1.2.2
